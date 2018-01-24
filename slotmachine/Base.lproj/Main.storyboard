@@ -88,6 +88,9 @@
                                                         <state key="normal" title="SPIN">
                                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="spin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8J-Jw-WDM"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfR-xH-Fq7">
                                                         <rect key="frame" x="249" y="0.0" width="94" height="54"/>
@@ -96,6 +99,9 @@
                                                         <state key="normal" title="RESET">
                                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jrd-yo-Vxl"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -113,6 +119,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="scorelabel" destination="s0R-26-gbf" id="T80-T7-Iiy"/>
+                        <outletCollection property="labels" destination="eY8-dv-7G9" collectionClass="NSMutableArray" id="SsS-sG-mNQ"/>
+                        <outletCollection property="labels" destination="q94-ZE-vm4" collectionClass="NSMutableArray" id="4yc-9i-whq"/>
+                        <outletCollection property="labels" destination="afx-CH-Cvj" collectionClass="NSMutableArray" id="Kk2-Ll-naW"/>
+                        <outletCollection property="labels" destination="IZr-pt-Mtf" collectionClass="NSMutableArray" id="a6W-fK-K3Z"/>
+                        <outletCollection property="labels" destination="43z-KF-k2f" collectionClass="NSMutableArray" id="Apw-Ii-RcB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
