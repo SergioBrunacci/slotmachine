@@ -13,6 +13,7 @@
 		F53437EB2018127800E77B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53437EA2018127800E77B15 /* Assets.xcassets */; };
 		F53437EE2018127800E77B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53437EC2018127800E77B15 /* LaunchScreen.storyboard */; };
 		F53437F82018151100E77B15 /* SlotMachineGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53437F72018151100E77B15 /* SlotMachineGame.swift */; };
+		F53437FA2018291B00E77B15 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53437F92018291B00E77B15 /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F53437ED2018127800E77B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F53437EF2018127800E77B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F53437F72018151100E77B15 /* SlotMachineGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineGame.swift; sourceTree = "<group>"; };
+		F53437F92018291B00E77B15 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F53437E32018127800E77B15 /* AppDelegate.swift */,
+				F53437F92018291B00E77B15 /* UIButton.swift */,
 				F53437E52018127800E77B15 /* ViewController.swift */,
 				F53437E72018127800E77B15 /* Main.storyboard */,
 				F53437EA2018127800E77B15 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 				F53437E62018127800E77B15 /* ViewController.swift in Sources */,
 				F53437F82018151100E77B15 /* SlotMachineGame.swift in Sources */,
 				F53437E42018127800E77B15 /* AppDelegate.swift in Sources */,
+				F53437FA2018291B00E77B15 /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
