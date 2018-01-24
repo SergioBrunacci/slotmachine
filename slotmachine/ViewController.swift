@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         
         let score = game.getScore()
         scorelabel.text = String(thescore + score)
-        if (Int(scorelabel.text!))!  < 2 {
+        if (Int(scorelabel.text!))!  < 1 {
             sender.isEnabled = false
         }
     }

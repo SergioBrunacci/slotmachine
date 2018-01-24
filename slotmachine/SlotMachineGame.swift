@@ -80,31 +80,17 @@ class SlotMachineGame{
     }
     
     
-    
-    //itializes a new game with the specified number of digits.
+
+    //initialize a new game with the specified number of digits.
     init(_ numberOfDigits : Int) {
-        switch numberOfDigits {
-            
-        case 5:
-            var i = 1
-            while i <= 5 {
-                spinDigits()
-                i += 1
+        var i = 1
+        while i <= 5 {
+            spinDigits()
+            i += 1
                 
-            }
-            checkForWinner(digitNumber: numberOfDigits)
-            print(score)
-        default:
-            var i = 1
-            while i <= 3 {
-                spinDigits()
-                i += 1
-                
-            }
-            // print(score)
-            checkForWinner(digitNumber: numberOfDigits)
         }
-        
+        checkForWinner(digitNumber: numberOfDigits)
+        print(score)
     }
     
     
